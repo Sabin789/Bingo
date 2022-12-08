@@ -1,0 +1,28 @@
+#bingo-container{
+    margin-inline: auto;
+    border: 1px solid black;
+   
+}
+.number{
+    width: 60px;
+    height:60px;
+    border: 1px solid black;
+    border-radius: 10px;
+    display: inline-block;
+    text-align: center;
+    line-height: 65px;
+    cursor: pointer;
+    color: black;
+    margin: 2px;
+}
+#randomNumber{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    display: block;
+}
+.selected{
+    background-color: blue;
+}
+h2{
+    text-align: center;
+}
